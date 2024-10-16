@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="red-circle"></div>
+    <div class="blue-circle"></div>
+    <div class="yellow-circle"></div>
+    <div class="sky-circle"></div>
+    <div class="card-container">
+        <img src="./images/profile.jpg" alt="">
+        <h2>RITIK SINGH</h2>
+        <p>WEB DEVELOPER</p>
+        <div class="button-container">
+            <button onclick="OpenModal()">Share My Profile</button>
+            <button>Follow Me</button>
+        </div>
+    </div>
+    <div class="modal">
+        <div class="modal-header">
+            <h2>Share My Profile</h2>
+            <button onclick="CloseModal()">X</button>
+        </div>
+        <p>Share this Via</p>
+        <div>
+            <div class="icon-container">
+                <a href="#" class="icon" id="facebook">
+                    <img src="./images/facebook.png" alt="">
+                </a>
+                <a href="#" class="icon" id="instagram">
+                    <img src="./images/instagram.png" alt="">
+                </a>
+                <a href="#" class="icon" id="twitter">
+                    <img src="./images/social.png" alt="">
+                </a>
+                <a href="#" class="icon" id="github" onc>
+                    <img src="./images/github.png" alt="">
+                </a>
+                <a href="#" class="icon" id="whatsapp">
+                    <img src="./images/whatsapp.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="overlay" onclick="CloseModal()">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
